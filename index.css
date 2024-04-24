@@ -1,0 +1,122 @@
+/* Global Styles */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1E1E1E;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Lucida Sans', sans-serif;
+    color: #1E1E1E; /* Black text color */
+    background-color: #EBEBEB; /* Light gray background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    background-color: #FFF000;
+    padding: 15px;
+    margin-bottom: 62.5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 38pt;
+    background-color: #FFCC00;
+    padding: 10px;
+}
+
+p {
+    font-size: 18pt;
+    line-height: 1.5;
+}
+
+/* Style for list numbers */
+ol {
+    font-size: 18pt; /* Match font size with <p> tag */
+    line-height: 1.5;
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background color */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for specific elements */
+
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #1E1E1E; /* Black footer background */
+    color: #FFFFFF; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+    color: #FFCC00; /* Primary yellow section heading color */
+    font-size: 24pt;
+    margin-bottom: 20px;
+}
+
+/* Updated Colors as per Requirements */
+.primary-yellow {
+    color: #FFCC00;
+}
+
+.secondary-yellow {
+    color: #FFFF00;
+}
+
+.gray {
+    color: #BEBEB9;
+}
+
+.light-gray-bg {
+    background-color: #EBEBEB;
+    color: #1E1E1E;
+}
+
+.black-bg {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
